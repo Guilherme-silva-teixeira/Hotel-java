@@ -17,7 +17,7 @@ Funções do sistema:
 - Apresentar histórico de reservas (apresentação dos dados do hóspede, código do quarto e data de
 entrada e data de saída.
 
-###Contribuitors:
+### Contribuitors:
 
 
 -Guilherme Teixeira;
