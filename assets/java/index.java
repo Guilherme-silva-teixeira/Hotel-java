@@ -1,33 +1,62 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+
 class index
 {
     public static void main(String[] args)
     {
+        try
+        {
+        
+        Scanner scan = new Scanner(System.in);
         int A00[] = new int[4], A01[] = new int[4], A02[] = new int[4], A03[] = new int[4];
+        String nomes[] = new String[16];
         int ad = 0;
         int[] suites = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-        for (int i0 = 0 ; i0 < 4; i0++)
-        {
-            A00[i0] =  suites[ad];
-            ad++;
+        int total = 16;
+        System.out.println("Digite o total de usuários que você quer cadastrar");
+            if(total > 0)
+            {
+                for (int i = 0 ; i <= total ; i++)
+                {
+                    total--;
+                    System.out.println("Digite o nome do hóspede 0" + i);
+                    nomes[i] = scan.nextLine();
+                    System.out.println("Digite o número da suíte do hóspede");
+                    suites[i] = scan.nextInt();
+                }
+            }else
+            {
+                System.out.println("Suítes não suficientes\n");
+            }
         }
-        for (int i1 = 0; i1 < 4; i1++)
+            catch(Exception e)
+            {
+                System.out.println("error");
+            }
+                finally
+                {
+
+                }
+    }
+
+    public String CADASTRAR_USUARIO_DE_SUITE(int[] ARRAY, String USERNAME, String POS)
+    {
+        try
         {
-            A01[i1] = suites[ad];
-            ad++;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o nome do usuário: \n");
+        USERNAME = scan.nextLine();
+        System.out.println("digite o número do quarto desse usuário\n");
+        POS = scan.nextLine();
+        return USERNAME;
         }
-        for (int i2 = 0; i2 < 4; i2++)
-        {
-            A02[i2] = suites[ad];
-            ad++;
-        }
-        for (int i3 = 0; i3 < 4; i3++)
-        {
-            A03[i3] = suites[ad];
-            ad++;
-        }
-        for (int j = 0 ; j < 4 ; j++)
-        {
-            System.out.println(A00[j] +" "+ A01[j] +" "+ A02[j] +" "+ A03[j] );
-        }
+            catch (Exception e)
+            {
+                System.out.println("error");;
+            }
+        return USERNAME;
     }
 }
