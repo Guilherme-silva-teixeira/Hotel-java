@@ -20,8 +20,8 @@ entrada e data de saída.
 ### Contribuitors:
 
 
--Guilherme Teixeira;
--Lucca Robson;
--Gabriel Messias;
--Thiago Xavier;
--Állison Teixeira.
+- Guilherme Teixeira;
+- Lucca Robson;
+- Gabriel Messias;
+- Thiago Xavier;
+- Állison Teixeira.
