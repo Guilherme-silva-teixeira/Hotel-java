@@ -16,3 +16,12 @@ Funções do sistema:
 - Listar Quartos ocupados
 - Apresentar histórico de reservas (apresentação dos dados do hóspede, código do quarto e data de
 entrada e data de saída.
+
+###Contribuitors:
+
+
+-Guilherme Teixeira;
+-Lucca Robson;
+-Gabriel Messias;
+-Thiago Xavier;
+-Állison Teixeira.
