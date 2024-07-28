@@ -8,7 +8,7 @@ import java.awt.*;
 
 
 public class index {
-
+    
     public static void main(String[] args) {
         // Cria uma matriz para armazenar informações das pessoas cadastradas em cada quarto
         String[][] pessoasCadastradas = new String[16][3];
