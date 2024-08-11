@@ -1,5 +1,5 @@
 # Hotel-java
-//csvi ojjb
+
 Desenvolver um programa para realizar a reserva de suítes em um hotel e manter o registro dos
 hóspedes. Considerar que o hotel possui 16 suítes:
 S101, S102, S103, S104, S201, S202, S203, S204, S301, S302, S303, S304, S401, S402, S403, S404.
